@@ -20,8 +20,8 @@ public class BootstrapImageBase : ComponentBase
     public string CreateClassString()
     {
         var classStr = Class;
-        classStr += " " + ClassBuilder.CreateImagineClass(ImageType);
-        classStr += " " + ClassBuilder.CreateRoundedClass(RoundedType);
+        classStr += ClassBuilder.CreateImagineClass(ImageType);
+        classStr += ClassBuilder.CreateRoundedClass(RoundedType);
         return classStr;
     }
 }
