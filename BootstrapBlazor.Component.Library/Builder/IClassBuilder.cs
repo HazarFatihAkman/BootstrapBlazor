@@ -6,5 +6,4 @@ public interface IClassBuilder
     string CreateFloatClass(FloatTypes floatType);
     string CreatePositionClass(PositionTypes positionType);
     string CreateRoundedClass(RoundedTypes roundedType);
-
 }
